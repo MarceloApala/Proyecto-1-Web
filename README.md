@@ -10,6 +10,8 @@ La aplicación facilita la gestión de inventarios mediante el uso de **códigos
 - **Ver lista de códigos QR**: Acceder a una lista visual de todos los códigos QR generados.
 - **Escanear códigos QR**: Utilizar la cámara del dispositivo para escanear códigos QR y obtener los detalles del producto.
 
+Además, la aplicación incluye una función de **inicio de sesión temporal** para facilitar el acceso de los usuarios sin requerir un registro completo. El usuario `nibol` puede iniciar sesión con la contraseña temporal `Temporal123` para acceder a todas las funcionalidades.
+
 ## Tecnologías y Librerías Utilizadas
 
 - **Next.js**: Framework React para la creación de aplicaciones web con renderizado tanto del lado del servidor como del cliente.
@@ -33,11 +35,7 @@ Asegúrate de tener **Node.js** y **npm** instalados en tu máquina. Puedes desc
 
 1. **Clonar el repositorio**
 
-   Si aún no tienes el proyecto en tu máquina local, clónalo del repositorio
+   Si aún no tienes el proyecto en tu máquina local, clónalo del repositorio:
 
-2. **Instalar las dependencias**
-   npm install
-
-3. **Iniciar el servidor de desarrollo**
-   npm run dev 
-   Esto levantará el servidor en http://localhost:3000, donde podrás ver la aplicación funcionando.
+   ```bash
+   git clone https://github.com/tu-usuario/tu-repositorio.git
